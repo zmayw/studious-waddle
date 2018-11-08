@@ -14,9 +14,13 @@ def selectionSort(array):
         tempData=array[i]
         array[i]=array[minIndex]
         array[minIndex]=tempData
+    return array
 
-#data=[8.0,6.2,2.1,1.3,1,5.0,0.7,0.4]
-#selectionSort(data)
+# #data=[8.0,6.2,2.1,1.3,1,5.0,0.7,0.4]
+# data=['a','c','f','k','l','b','c']
+# #data={"a":90,"f":40,"k":80,"b":"89","c":60}
+# newData=selectionSort(data)
+# print newData
 
 
 

@@ -28,7 +28,7 @@ def main_quickSort3ways(arr):
     n = len(arr)
     quickSort3ways(arr,0,n-1)
 
-a = [3,9,2,0,1,7,8,5,4,6]
+a = [3,9,2,0,1,7,8,5,4,6,3,0]
 main_quickSort3ways(a)
 print a
 
