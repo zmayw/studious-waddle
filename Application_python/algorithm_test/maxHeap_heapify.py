@@ -54,6 +54,8 @@ class MaxHeap_heapify:
         self.__shiftDown(0)
         return ret
 
+
+
 # n = 15
 # maxHeap = MaxHeap(n)
 # for i in range(n):
@@ -63,6 +65,22 @@ class MaxHeap_heapify:
 # while( maxHeap.isEmpty() == False):
 #     item = maxHeap.extractMax();
 #     print item ,maxHeap
+
+
+
+
+
+# a = [10,9,8,7,6,5]
+# b = []
+# for i in range(len(a)-1,-1,-1):
+#     b.append(a[i])
+# print b
+#
+# c = []
+# for i in range(len(a)):
+#     c.insert(0,a[i])
+# print c
+
 
 
 

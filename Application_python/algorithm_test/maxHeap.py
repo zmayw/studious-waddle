@@ -27,13 +27,17 @@ class MaxHeap:
 
     def __shiftDown(self, k):
         while((2*k+1) <= (self.count-1)):
-            j = 2*k+1 # data[k] 和data[j]进行交换，data[j]可能是左孩子，也可能是右孩子
+            # j位置的元素，用来跟k的值进行对比，先比较左右孩子，确定j的位置
+            # 以下将实现data[k] 和data[j]进行交换，data[j]可能是左孩子，也可能是右孩子
+            j = 2*k+1 #j的初始值为左孩子
             if (j+1 <= self.count-1 and self.data[j+1] > self.data[j]):
                 j = j +1
             if (self.data[k] < self.data[j]):
                 self.data[k],self.data[j] = self.data[j],self.data[k]
             k = j
 
+    def size(self):
+        return self.count
     def isEmpty(self):
         return self.count == 0
 
@@ -59,7 +63,7 @@ class MaxHeap:
 #
 # while( maxHeap.isEmpty() == False):
 #     item = maxHeap.extractMax();
-#     print item ,maxHeap
+#     print item ,maxHeap.data
 
 
 

@@ -6,13 +6,11 @@ def swap(a,b):
     a,b = b,a
 # arr[l..r]
 def partition2(arr,l,r):
-    print "lllllllllll partition2,l,r",l,r
     random_l = random.randint(l,r)
     arr[l],arr[random_l] = arr[random_l],arr[l]
     e = arr[l]
     j = r
     i = l+1
-    print "ori l,random_l",l,random_l
     while(True):
         while( i <= r and arr[i] < e):
             i = i+1
@@ -20,21 +18,17 @@ def partition2(arr,l,r):
             j = j -1
         if (i > j ):
             break
-        print "in while true ,i,j,arr[i],arr[j],arr:",i,j,arr[i],arr[j],arr
         arr[i],arr[j] = arr[j],arr[i]
         i = i+1
-        j = j -1
-        print "after swap,arr,i,j",arr,i,j
-    print "before swap arr[l],arr[j]..",arr[l],arr[j],arr
+        j = j-1
+
     arr[l],arr[j] = arr[j],arr[l]
-    print "after swap arr[l],arr[j]..",arr[l],arr[j],arr
     return j
 
 def quickSort2(arr,l,r):
     if (l>=r):
         return
     p = partition2(arr,l,r)
-    print "p pppp,",p
     quickSort2(arr,l,p-1)
     quickSort2(arr,p+1,r)
 
@@ -42,9 +36,9 @@ def main_quickSort2(arr):
     n = len(arr)
     quickSort2(arr,0,n-1)
 
-a = [3,9,2,0,1,7,8,5,4,6]
-main_quickSort2(a)
-print a
+# a = [3,9,2,0,1,7,8,5,4,6]
+# main_quickSort2(a)
+# print a
 
 
 #v1.0
