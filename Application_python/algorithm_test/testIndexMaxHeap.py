@@ -2,10 +2,12 @@
 
 class IndexMaxHeap:
 
-    def __init__(self,arr):
-        self.data = []
-        self.arr = arr
-        self.count = len(self.data)
+    def __init__(self):
+        #self.data = []
+        self.indexes = []
+        self.reverse = []
+        self.arr = []
+        self.count = len(self.indexes)
 
 
     def size(self):
@@ -15,22 +17,29 @@ class IndexMaxHeap:
         return self.count == 0
 
     def __shiftUp(self,index):
-        while((index-1)/2 >=0 and (self.arr[self.data[index]] > self.arr[self.data[(index-1)/2]])):
-            self.data[(index-1)/2] , self.data[index] = self.data[index], self.data[(index-1)/2]
+        while((index-1)/2 >=0 and (self.arr[self.indexes[index]] > self.arr[self.indexes[(index-1)/2]])):
+            self.indexes[(index-1)/2] , self.indexes[index] = self.indexes[index], self.indexes[(index-1)/2]
+            self.reverse[self.indexes[(index-1)/2]] = (index-1)/2
+            self.reverse[self.indexes[index]] = index
             index = (index-1)/2
 
+
     def insert(self,item,index):
-        self.data.append(index)
+        self.indexes.append(index)
+        self.arr.insert(index,item)
         self.count += 1
+        self.reverse.insert(index,self.count-1)
         self.__shiftUp(index)
 
     def __shiftDown(self,index):
         while((index*2+1)<=(self.count-1)):
             j = index*2+1
-            if( (j+1)<(self.count-1) and self.arr[self.data[j]] < self.arr[self.data[j+1]]):
+            if( (j+1)<(self.count-1) and self.arr[self.indexes[j]] < self.arr[self.indexes[j+1]]):
                 j += 1
-            if self.arr[self.data[index]] < self.arr[self.data[j]]:
-                self.arr[self.data[index]],self.arr[self.data[j]] = self.arr[self.data[j]],self.arr[self.data[index]]
+            if self.arr[self.indexes[index]] < self.arr[self.indexes[j]]:
+                self.arr[self.indexes[index]],self.arr[self.indexes[j]] = self.arr[self.indexes[j]],self.arr[self.indexes[index]]
+                self.reverse[self.indexes[index]] = index
+                self.reverse[self.indexes[j]] = j
                 index = j
             else:
                 break
@@ -39,52 +48,60 @@ class IndexMaxHeap:
     def extractMax(self):
         if (self.count<0):
             return
-        ret = self.arr[self.data[0]]
-        self.data[0] = self.data[self.count-1]
+        ret = self.arr[self.indexes[0]]
+        self.indexes[0] = self.indexes[self.count-1]
+        self.reverse[self.indexes[0]] = 0
+        self.reverse[self.indexes[self.count-1]]=0
         self.count -= 1
         self.__shiftDown(0)
-        print "extractMax,self.size,self.arr,self.data",self.size,self.arr,self.data
         return ret
 
     def getItem(self,index):
+        if self.contain(index)==False:
+            raise "Chang index is not in indexes"
         return self.arr[index]
 
+    def contain(self,index):
+        return self.reverse[index] != 0
+
     def change(self,index,newItem):
+        if self.contain(index)==False:
+            raise "Chang index is not in indexes"
         self.arr[index] = newItem
+        j = self.reverse[index]
+        self.__shiftUp(j)
+        self.__shiftDown(j)
 
-        for i in range(self.count):
-            if self.data[i] == index:
-                self.__shiftUp(i)
-                self.__shiftDown(i)
-                return
+        # self.arr[index] = newItem
+        # for i in range(self.count):
+        #     if self.data[i] == index:
+        #         self.__shiftUp(i)
+        #         self.__shiftDown(i)
+        #         return
 
 
-def readDataElements(data,arr):
+def readDataElements(indexes,arr):
     newArr = []
     n = len(arr)
     for i in range(n):
-        newArr.append(arr[data[i]])
+        newArr.append(arr[indexes[i]])
     print newArr
 
-
-a = [19,30,29,34,23,36,12,38,17,2,5,6,0]
-indexMaxHeap = IndexMaxHeap(a)
-n = len(a)
-indexMaxHeap.change(5,100)
-for i in range(n):
-    indexMaxHeap.insert(a[i],i)
-
-print "indexMaxHeap.dat",indexMaxHeap.data
-readDataElements(indexMaxHeap.data,a)
-print indexMaxHeap.arr
-print indexMaxHeap.size()
-
-
-
-# c = []
+# a = [19,30,29,34,23,36,12,38,17,2,5,6,0]
+# indexMaxHeap = IndexMaxHeap()
+# n = len(a)
 # for i in range(n):
-#    c.insert(0,indexMaxHeap.extractMax())
-# print c
-# print indexMaxHeap.size()
-# print indexMaxHeap.isEmpty()
+#     indexMaxHeap.insert(a[i],i)
+# print "the result,data   ",indexMaxHeap.indexes
+# print "the result,reverse",indexMaxHeap.reverse
+# print "the result arr    ",indexMaxHeap.arr
+# readDataElements(indexMaxHeap.indexes,indexMaxHeap.arr)
+# indexMaxHeap.change(5,100)
+# print "*"*20
+# print "the result,data   ",indexMaxHeap.indexes
+# print "the result,reverse",indexMaxHeap.reverse
+# print "the result arr    ",indexMaxHeap.arr
+# readDataElements(indexMaxHeap.indexes,indexMaxHeap.arr)
+
+
 
