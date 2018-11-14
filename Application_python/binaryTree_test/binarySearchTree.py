@@ -1,5 +1,7 @@
 #coding=utf-8
 
+import Queue
+
 class BinarySearchTree:
 
     def __init__(self):
@@ -12,11 +14,11 @@ class BinarySearchTree:
     def isEmpty(self):
         return self.count
 
-    def insert(self,key,value):
+    def insert(self, key, value):
         if self.root:
             self.insertNode(self.root, key, value)
         else:
-            self.root = TreeNode(key,value)
+            self.root = TreeNode(key, value)
 
     def insertNode(self,node,key,value):
         if node==None:
@@ -31,54 +33,146 @@ class BinarySearchTree:
             node.rchild = self.insertNode(node.rchild,key,value)
         return node
 
-    #def contain(self,key):
+    def contain(self,key):
+        return self.containNode(self.root,key)
 
     # 查看以node为根的二叉搜索树中是否包含键为key的节点
-    def contain(self,node,key):
+    def containNode(self,node,key):
         if node == None:
             return False
         elif( key == node.key):
             return True
         elif( key < node.key):
-            return self.contain(node.lchild,key)
+            return self.containNode(node.lchild,key)
         elif( key > node.key):
-            return self.contain(node.rchild,key)
+            return self.containNode(node.rchild,key)
 
 
+    #def search(self,key):
+     #   return self.searchNode(self.root,key)
 
     #在以node为概的二叉搜索树中查找key所对应的value
-    def search(self,node,key):
-        if(node == None):
+    def searchNode(self,node,key):
+        if(node is None):
             return None
         elif(key == node.key):
-            print "search key==node.key,",key,node.key
-            return node.value
+            return node
         elif(key < node.key):
-            print "search,key,node,node.lchild",key,node,node.key,node.lchild,node.rchild
-            return self.search(node.lchild,key)
+            return self.searchNode(node.lchild,key)
         elif(key > node.key):
-            return self.search(node.rchild,key)
-        return node
-
+            return self.searchNode(node.rchild,key)
+        #return node.value
+    #中序遍历
     def inOrder(self, node):
         if(node != None):
             self.inOrder(node.lchild)
             print node.key
-            self.inOrder(node.lright)
+            self.inOrder(node.rchild)
 
-
+    #前序遍历
     def preOrder(self,node):
         if(node != None):
             print node.key
             self.preOrder(node.lchild)
             self.preOrder(node.rchild)
 
-
+    #后序遍历
     def postOrder(self,node):
         if(node !=None):
             self.postOrder(node.lchild)
             self.postOrder(node.rchild)
             print node.key
+
+    # 层序遍历
+    def levelOrder(self):
+        q = Queue.Queue()
+        q.put(self.root)
+        while(not q.empty()):
+            node = q.get()
+            print node.key
+            if(node.lchild):
+                q.put(node.lchild)
+            if(node.rchild):
+                q.put(node.rchild)
+
+    #最小值
+    def __minimum(self,node):
+        if (node.lchild == None):
+            return node
+
+        return self.__minimum(node.lchild)
+
+    def minimum(self):
+        if self.count == 0 :
+            raise "The binarySearchTree is None "
+        miniNode = self.__minimum(self.root)
+        return miniNode.key
+
+    #最大值
+    def maximum(self):
+        if self.count == 0:
+            raise "The binarySearchTree is None"
+        node = self.root
+        while(node.rchild):
+            node = node.rchild
+            if node.rchild is None:
+                return node.key
+
+
+    def removeMin(self):
+        if(self.root):
+            self.root = self.removeMiniNode(self.root)
+
+    #删除最小值
+    def removeMiniNode(self,node):
+        if (node.lchild == None):
+            rightNode = node.rchild
+            self.count -= 1
+            return rightNode
+        node.lchild = self.removeMiniNode(node.lchild)
+        return node
+
+    def removeMax(self):
+         if(self.root):
+            self.root = self.removeMaxNode(self.root)
+
+    #删除最大值
+    def removeMaxNode(self,node):
+         if(node.rchild == None):
+            leftNode = node.lchild
+            self.count -= 1
+            return leftNode
+         node.rchild = self.removeMaxNode(node.rchild)
+         return node
+
+    def removeNode(self, node, key):
+        if(node is None):
+            return None
+        if(key > node.key):
+            node.rchild = self.removeNode(node.rchild, key)
+            return node
+        elif( key < node.key):
+            node.lchild = self.removeNode(node.lchild, key)
+            return node
+        elif(node.key == key):
+            if node.lchild == None:
+                rNode = node.rchild
+                self.count -= 1
+                return rNode
+
+            if node.rchild == None:
+                lNode = node.lchild
+                self.count -= 1
+                return lNode
+
+            rNode = node.rchild
+            lNode = node.lchild
+            newNode = self.__minimum(rNode)
+
+            node.key, node.value = newNode.key, newNode.value
+            node.lchild = lNode
+            node.rchild = self.removeMiniNode(rNode)
+            return node
 
 class TreeNode:
 
@@ -112,34 +206,5 @@ class TreeNode:
 
 
 
-
-
-
-file = open("license.txt")
-wordlines = file.readlines()
-words = []
-for line in wordlines:
-    wordArray = line.split(" ")
-    for word in wordArray:
-        if (word.strip() == word and word.strip() != ""):
-            words.append(word)
-
-bst = BinarySearchTree()
-i = 1
-print "words:",words
-for word in words:
-
-    node = bst.search(bst.root,word)
-    if(node == None):
-        bst.insert(word,1)
-    else:
-        node.value = node.value + 1
-
-print bst
-print bst.count
-print "bst.root,", bst.root
-
-res = bst.search(bst.root,"and")
-print res
 
 
