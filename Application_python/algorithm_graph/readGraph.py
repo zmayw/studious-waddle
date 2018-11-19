@@ -11,6 +11,7 @@ class ReadGraph:
         E = int(header[1])
 
         if V != self.graph.V():
+            print "V,self.graph.V()",V,self.graph.V()
             raise Exception,"V is not except value."
 
         for i in range(E):

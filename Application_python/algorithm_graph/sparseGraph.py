@@ -47,7 +47,7 @@ class SparseGraph:
                 print(self.g[i][j]),
             print ""
 
-    class adiIterator(object):
+    class adjIterator(object):
         '''相邻节点迭代器'''
         def __init__(self,graph,v):
             self.G = graph #需要遍历的图
@@ -58,6 +58,7 @@ class SparseGraph:
             self.index += 1
             if(self.index < len(self.G.g[self.v])):
                 return self.G.g[self.v][self.index]
+            return -1
 
         def begin(self):
             if(len(self.G.g[self.v]) > 0):
