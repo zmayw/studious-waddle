@@ -28,7 +28,7 @@ class MaxHeap:
     def isEmpty(self):
         return self.count == 0
 
-    def insert(self,index,item):
+    def insert(self, index, item):
         if(index+1 < 1 or index + 1 > self.capacity):
             return
         self.data.append(item)

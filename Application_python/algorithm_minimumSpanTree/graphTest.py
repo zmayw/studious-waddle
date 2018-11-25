@@ -6,6 +6,7 @@ from component import Component
 from path import Path
 from shortestPath import ShortestPath
 from lazyPrimMST import LazyPrimMST
+from primMST import PrimMST
 
 def readGraphTest():
     filename = "testGraph.txt"
@@ -16,8 +17,6 @@ def readGraphTest():
     denG = DenseGraph(13,False)
     ReadGraph(denG,filename)
     denG.show()
-
-
 
 def componentTest():
     filename = "testGraph.txt"
@@ -74,5 +73,20 @@ def lazyPrimMSTTest():
     print ""
     print "The MST weight is :",lazyPrimMST.result()
 
+def primMSTTest():
+    filename = "testGraph.txt"
+    sparG = SparseGraph(8, False)
+    ReadGraph(sparG, filename)
+    #sparG.show()
 
-lazyPrimMSTTest()
+    primMST = PrimMST(sparG)
+    mst = primMST.mstEdges()
+    print "Test PrimMST："
+    for i in range(len(mst)):
+        print "(%d-%d:%f)" % (mst[i].v(),mst[i].w(),mst[i].weight())
+    print ""
+    print "The MST weight is :",primMST.result()
+
+
+#lazyPrimMSTTest()
+primMSTTest()
