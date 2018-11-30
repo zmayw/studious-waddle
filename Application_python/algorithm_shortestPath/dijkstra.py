@@ -85,7 +85,6 @@ class Dijkstra:
                 print "->",
             else:
                 print "-> %s" % path[i].w()
-        print ""
 
 
 
