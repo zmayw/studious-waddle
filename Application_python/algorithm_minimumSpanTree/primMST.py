@@ -1,5 +1,5 @@
 #coding=utf-8
-from indexMiniHeap import IndexMiniHeap
+from indexMinHeap import IndexMiniHeap
 
 class PrimMST:
 

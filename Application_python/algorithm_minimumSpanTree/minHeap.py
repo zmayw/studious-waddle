@@ -1,6 +1,6 @@
 #coding=utf-8
 
-class MiniHeap(object):
+class MinHeap(object):
 
     def __init__(self, keyAttribute=None):
         self.__data = []

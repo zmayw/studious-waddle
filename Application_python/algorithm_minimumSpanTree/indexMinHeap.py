@@ -1,6 +1,6 @@
 #coding=utf-8
 
-class IndexMiniHeap:
+class IndexMinHeap:
 
     def __init__(self, capacity, keyAttribute=None):
         self.__data = []

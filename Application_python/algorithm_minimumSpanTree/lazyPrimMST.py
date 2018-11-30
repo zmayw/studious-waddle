@@ -1,6 +1,6 @@
 #coding=utf-8
 
-from miniHeap import MiniHeap
+from minHeap import MiniHeap
 
 class LazyPrimMST:
 
