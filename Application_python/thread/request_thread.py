@@ -47,8 +47,9 @@ def sendToRequestsAndRecordResponse(titles, msgNumberFilePath,excelName):
             for title in titles:
                 if Response.json().has_key(title):
                     resData.append(resJson[title])
-                    print title,type(resJson[title])
+                    print title, type(resJson[title])
                 else:
+                    pass
                     #resData.append('null')
                 #print resData
             #for j in range(len(resData)):
