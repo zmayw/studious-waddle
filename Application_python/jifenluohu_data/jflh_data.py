@@ -29,6 +29,7 @@ for i in range(6019/100+1):
     print url
     response = requests.get(url, params=params)
     res = response.json()
+    print "..........,",res
     rows = res["rows"]
     rows_data = []
     headers = ["pxid","name", "score", "unit", "csrq"]
