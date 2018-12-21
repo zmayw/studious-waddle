@@ -4,7 +4,7 @@
     <list default="true" id="035605bd-9ac3-49ed-afac-91a62b031350" name="Default" comment="" />
     <ignored path="Application_python.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1542334921218" ignored="false" />
+    <file path="/Dummy.txt" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1545190656081" ignored="false" />
     <file path="/download_jflh_data.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1539955934179" ignored="false" />
     <file path="/selectionTheIndexNum.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1541686709249" ignored="false" />
     <file path="/maxHeap.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1541732071589" ignored="false" />
@@ -27,6 +27,48 @@
     <file path="/graphTest.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1542462948598" ignored="false" />
     <file path="/readGraph.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1542467344281" ignored="false" />
     <file path="/readGraphTest.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1542466771160" ignored="false" />
+    <file path="/dijkstra.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1543554954446" ignored="false" />
+    <file path="/indexMinHeap.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1543547761417" ignored="false" />
+    <file path="/mainTestDijkstra.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1543548130391" ignored="false" />
+    <file path="/bellmanFord.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1543580706875" ignored="false" />
+    <file path="/mainTestBellmanFord.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1543579134546" ignored="false" />
+    <file path="/demo1.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1543664781292" ignored="false" />
+    <file path="/request_thread.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1543975735184" ignored="false" />
+    <file path="/datastructure.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544149458264" ignored="false" />
+    <file path="/dict_filter.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544149954042" ignored="false" />
+    <file path="/tuple_test.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544151398833" ignored="false" />
+    <file path="/wordsTimes.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544152123442" ignored="false" />
+    <file path="/dict_sort.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544153700204" ignored="false" />
+    <file path="/dictKey.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544156696747" ignored="false" />
+    <file path="/dictKeyCount.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544156614253" ignored="false" />
+    <file path="/dictOrder.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544157592803" ignored="false" />
+    <file path="/history.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544159092970" ignored="false" />
+    <file path="/iterationAnditerator.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544177075854" ignored="false" />
+    <file path="/iterationAndIterator.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544177046775" ignored="false" />
+    <file path="/reverse.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544262269272" ignored="false" />
+    <file path="/forTest.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544431726472" ignored="false" />
+    <file path="/string_test.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544434823269" ignored="false" />
+    <file path="/startOrEndWith.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544435463835" ignored="false" />
+    <file path="/test.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1545108519673" ignored="false" />
+    <file path="/fileRW.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544522251121" ignored="false" />
+    <file path="/mmap_test.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544609696587" ignored="false" />
+    <file path="/py.txt" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544582810324" ignored="false" />
+    <file path="/fileState.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544611499740" ignored="false" />
+    <file path="/tempFile.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544615091728" ignored="false" />
+    <file path="/derivedClass.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544758767912" ignored="false" />
+    <file path="/Instance.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544769681963" ignored="false" />
+    <file path="/context.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544773406797" ignored="false" />
+    <file path="/managerObject.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544785278888" ignored="false" />
+    <file path="/objectCompare.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544787278046" ignored="false" />
+    <file path="/instanceProperty.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544790674308" ignored="false" />
+    <file path="/manageMemery.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544794071970" ignored="false" />
+    <file path="/methodCall.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544799280181" ignored="false" />
+    <file path="/jflh_data.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1544863572005" ignored="false" />
+    <file path="/adapters.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1545022440510" ignored="false" />
+    <file path="/test2.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1545201913606" ignored="false" />
+    <file path="/threadConnect.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1545206120309" ignored="false" />
+    <file path="/test3.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1545212414131" ignored="false" />
+    <file path="/threadEvent.py" changelist="035605bd-9ac3-49ed-afac-91a62b031350" time="1545402126808" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +80,9 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DaemonCodeAnalyzer">
-    <disable_hints />
+    <disable_hints>
+      <file url="file://$PROJECT_DIR$/Thread_test/test2.py" />
+    </disable_hints>
   </component>
   <component name="DatabaseView">
     <flatten value="false" />
@@ -47,84 +91,98 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="Application_python" />
+    <favorites_list name="Application_python">
+      <favorite_root url="file://$PROJECT_DIR$/basic_study/dictSort.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="denseGraph.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm_graph/denseGraph.py">
+      <file leaf-file-name="test2.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Thread_test/test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sparseGraph.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm_graph/sparseGraph.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="36" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graphTest.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm_graph/graphTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="28" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+            <state line="42" column="26" selection-start="814" selection-end="1361" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#14#39#0" expanded="true" />
+                <element signature="e#14#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readGraphTest.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/algorithm_graph/readGraphTest.py">
+      <file leaf-file-name="threadConnect.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Thread_test/threadConnect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="33" selection-start="166" selection-end="166" vertical-scroll-proportion="0.4907749">
+            <state line="7" column="7" selection-start="15" selection-end="2066" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#14#38#0" expanded="true" />
+                <element signature="e#15#68#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testGraph.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm_graph/testGraph.txt">
+      <file leaf-file-name="test3.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Thread_test/test3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="10" column="11" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testGraph2.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm_graph/testGraph2.txt">
+      <file leaf-file-name="threadEvent.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Thread_test/threadEvent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readGraph.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algorithm_graph/readGraph.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="32" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="msg_content.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rw_file/msg_content.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="31" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
+            <state line="136" column="0" selection-start="3626" selection-end="3626" vertical-scroll-proportion="0.9234234">
               <folding>
-                <element signature="e#24#48#0" expanded="true" />
+                <element signature="e#90#104#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tarfile.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/tarfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1956" column="0" selection-start="66675" selection-end="66675" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/json/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="337" column="0" selection-start="14231" selection-end="14231" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1404303058000" expanded="true" signature="1902:2019" placeholder="..." />
+                <marker date="1404303058000" expanded="true" signature="2341:2493" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/site-packages/requests/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="811" column="0" selection-start="28196" selection-end="28196" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utf_8.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/encodings/utf_8.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decoder.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/json/decoder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="365" column="0" selection-start="12989" selection-end="12989" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,33 +203,52 @@
       <MyDateState />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Thread_test/test2.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/unionFind/unionFind1.py" />
-        <option value="$PROJECT_DIR$/unionFind/unionFind2.py" />
-        <option value="$PROJECT_DIR$/unionFind/unionFind21.py" />
-        <option value="$PROJECT_DIR$/unionFind/unionFind3.py" />
-        <option value="$PROJECT_DIR$/unionFind/unionFindTest.py" />
-        <option value="$PROJECT_DIR$/unionFind/unionFind_rank.py" />
-        <option value="$PROJECT_DIR$/unionFind/unionFind_pathCompress.py" />
-        <option value="$PROJECT_DIR$/graph_test/sparseGraph.py" />
-        <option value="$PROJECT_DIR$/graph_test/denseGraph.py" />
-        <option value="$PROJECT_DIR$/graph_test/graphTest.py" />
-        <option value="$PROJECT_DIR$/algorithm_graph/testGraph.txt" />
-        <option value="$PROJECT_DIR$/algorithm_graph/testGraph2.txt" />
-        <option value="$PROJECT_DIR$/algorithm_graph/readGraphTest.py" />
-        <option value="$PROJECT_DIR$/algorithm_graph/readGraph.py" />
-        <option value="$PROJECT_DIR$/algorithm_graph/sparseGraph.py" />
-        <option value="$PROJECT_DIR$/algorithm_graph/denseGraph.py" />
+        <option value="$PROJECT_DIR$/classObject_test/context.py" />
+        <option value="$PROJECT_DIR$/classObject_test/managerObject.py" />
+        <option value="$PROJECT_DIR$/classObject_test/compareOperation.py" />
+        <option value="$PROJECT_DIR$/classObject_test/objectCompare.py" />
+        <option value="$PROJECT_DIR$/classObject_test/InstancePerformance.py" />
+        <option value="$PROJECT_DIR$/classObject_test/instanceProperty.py" />
+        <option value="$PROJECT_DIR$/classObject_test/manageMemery.py" />
+        <option value="$PROJECT_DIR$/classObject_test/methodCall.py" />
+        <option value="$PROJECT_DIR$/jifenluohu_data/jflh_data.py" />
+        <option value="C:/Python27/Lib/site-packages/requests/adapters.py" />
+        <option value="$PROJECT_DIR$/Thread_test/test.py" />
+        <option value="$PROJECT_DIR$/Thread_test/xml_pretty.py" />
+        <option value="$PROJECT_DIR$/Thread_test/test2.py" />
+        <option value="$PROJECT_DIR$/Thread_test/threadConnect.py" />
+        <option value="$PROJECT_DIR$/Thread_test/test3.py" />
+        <option value="$PROJECT_DIR$/Thread_test/threadEvent.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="566" />
-    <option name="y" value="41" />
-    <option name="width" value="1378" />
-    <option name="height" value="736" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Buildout</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -242,7 +319,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm_graph" />
+              <option name="myItemId" value="jifenluohu_data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application_python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application_python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Thread_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,7 +345,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="com.jetbrains.python.templateLanguages.TemplateLanguageModulesConfigurable" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="D:/pythonPro" />
     <property name="FullScreen" value="false" />
@@ -271,100 +362,106 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myGithub\studious-waddle\Application_python\algorithm_shortestPath" />
       <recent name="D:\myGithub\studious-waddle\Application_python\unionFind" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\myGithub\studious-waddle\Application_python\string_test" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.readGraphTest">
-    <configuration default="false" name="unionFindTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.threadEvent">
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unionFind" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Thread_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Application_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unionFind/unionFindTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thread_test/test.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="denseGraph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/graph_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Thread_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Application_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph_test/denseGraph.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thread_test/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonCover" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonCover" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="threadConnect" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Thread_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Application_python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thread_test/threadConnect.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="graphTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/graph_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Thread_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Application_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph_test/graphTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thread_test/test3.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="readGraphTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="threadEvent" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm_graph" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Thread_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Application_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm_graph/readGraphTest.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="readGraph" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm_graph" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Application_python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm_graph/readGraph.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Thread_test/threadEvent.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -431,19 +528,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.unionFindTest" />
-      <item index="1" class="java.lang.String" itemvalue="Python.denseGraph" />
-      <item index="2" class="java.lang.String" itemvalue="Python.graphTest" />
-      <item index="3" class="java.lang.String" itemvalue="Python.readGraphTest" />
-      <item index="4" class="java.lang.String" itemvalue="Python.readGraph" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.threadConnect" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test3" />
+      <item index="4" class="java.lang.String" itemvalue="Python.threadEvent" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.readGraphTest" />
-        <item index="1" class="java.lang.String" itemvalue="Python.readGraph" />
-        <item index="2" class="java.lang.String" itemvalue="Python.graphTest" />
-        <item index="3" class="java.lang.String" itemvalue="Python.denseGraph" />
-        <item index="4" class="java.lang.String" itemvalue="Python.unionFindTest" />
+        <item index="0" class="java.lang.String" itemvalue="Python.threadEvent" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.threadConnect" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -474,23 +571,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="566" y="41" width="1378" height="736" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3293919" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.0" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5084459" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16033435" sideWeight="0.5191638" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39721254" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21522693" sideWeight="0.40356565" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38897893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48083624" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.59643435" sideWeight="0.5" order="2" side_tool="true" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.0" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -555,124 +652,112 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Lib/random.py">
+    <entry file="file://C:/Python27/Lib/site-packages/requests/adapters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="237" column="8" selection-start="8902" selection-end="8902" vertical-scroll-proportion="0.034734916">
+        <state line="476" column="0" selection-start="18434" selection-end="18434" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/requests/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="474" column="0" selection-start="16947" selection-end="16947" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="29" selection-start="3581" selection-end="3581" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_unionFind/unionFind2.py">
+    <entry file="file://$PROJECT_DIR$/rw_file/msg_numOrg_xls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="30" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+        <state line="11" column="31" selection-start="200" selection-end="200" vertical-scroll-proportion="26.074074" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thread_test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="44" selection-end="1549" vertical-scroll-proportion="14.148149" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thread_test/xml_pretty.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_unionFind/unionFind1.py">
+    <entry file="file://C:/Python27/Lib/encodings/utf_8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_unionFind/unionFind_pathCompress.py">
+    <entry file="file://C:/Python27/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="992" selection-end="992" vertical-scroll-proportion="0.7915905">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_unionFind/unionFind_rank.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.27056673">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_unionFind/unionFindTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_unionFind/unionFind21.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="529" selection-end="854" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_unionFind/unionFind3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="55" selection-start="363" selection-end="363" vertical-scroll-proportion="0.17367458">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rw_file/msg_content.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
+        <state line="337" column="0" selection-start="14231" selection-end="14231" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#24#48#0" expanded="true" />
+            <marker date="1404303058000" expanded="true" signature="1902:2019" placeholder="..." />
+            <marker date="1404303058000" expanded="true" signature="2341:2493" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_graph/testGraph2.txt">
+    <entry file="file://C:/Python27/Lib/site-packages/requests/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+        <state line="811" column="0" selection-start="28196" selection-end="28196" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_graph/testGraph.txt">
+    <entry file="file://C:/Python27/Lib/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="365" column="0" selection-start="12989" selection-end="12989" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_graph/sparseGraph.py">
+    <entry file="file://$PROJECT_DIR$/Thread_test/test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="36" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_graph/graphTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="28" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
+        <state line="42" column="26" selection-start="814" selection-end="1361" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#14#39#0" expanded="true" />
+            <element signature="e#14#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_graph/readGraph.py">
+    <entry file="file://$PROJECT_DIR$/Thread_test/test3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="32" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+        <state line="10" column="11" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_graph/denseGraph.py">
+    <entry file="file://C:/Python27/Lib/tarfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.0">
+        <state line="1956" column="0" selection-start="66675" selection-end="66675" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm_graph/readGraphTest.py">
+    <entry file="file://$PROJECT_DIR$/Thread_test/threadConnect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="166" selection-end="166" vertical-scroll-proportion="0.4907749">
+        <state line="7" column="7" selection-start="15" selection-end="2066" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#14#38#0" expanded="true" />
+            <element signature="e#15#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thread_test/threadEvent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="0" selection-start="3626" selection-end="3626" vertical-scroll-proportion="0.9234234">
+          <folding>
+            <element signature="e#90#104#0" expanded="true" />
           </folding>
         </state>
       </provider>
